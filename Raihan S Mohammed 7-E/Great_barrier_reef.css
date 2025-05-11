@@ -1,0 +1,168 @@
+a{
+    color: black; text-decoration: none;
+}
+
+p.content-right{
+    font-size: 22px;font-family: lato;text-align: justify;padding-top: 30px;
+}
+
+h1{
+    color: darkblue;font-size: 30px;
+}
+
+body{
+    margin: 0;height: 100vh;background: linear-gradient(270deg, #ffffff, #cacaca, #c5d1d6);background-size: 600% 600%;animation: wave 10s ease infinite;
+}
+
+@keyframes wave{
+    0% { background-position: 0% 50%; }50% { background-position: 100% 50%; }100% { background-position: 0% 50%; }
+}
+
+a:hover{
+    color: white;
+}
+
+div.header{
+    padding: 20px;background: linear-gradient(270deg, #0084ff, #78c6fa, #2b9ccc);float: right;width: 1560px;
+}
+
+div.header-sub{
+    float: right;text-align: right;padding-top: 14px;
+}
+
+a.header-sub-sub{
+    padding-right: 50px;font-size: 22.5px;
+}
+
+a.header-main{
+    text-align: left;padding: 10px;font-size: 45px;
+}
+
+div.body{
+    padding-left: 25px;padding-top: 100px;padding-right: 25px;padding-bottom: 25px;
+}
+
+a.word-links{
+    color: red; text-decoration: underline;
+}
+
+img.left{
+    float: left; width: 300px; margin-right: 20px;border: black 2px solid;
+}
+
+p.content-left{
+    display: inline-block; vertical-align: top; width: 82%;font-size: 22px;padding-top: 15px;text-align: justify
+}
+
+img.right{
+    display: inline-block; width: 250px; vertical-align: top;border: black 2px solid;
+}
+
+h1.defualt{
+    font-size: 28px; padding-bottom: 7.5px;
+}
+
+p.default{
+    font-size: 22px;font-family: lato;text-align: justify;padding-top: 30px;
+}
+
+p.content-spec3{
+    font-size: 22px;font-family: lato;text-align: justify;padding-top: 60px;
+}
+
+pre.default{
+    font-size: 22px;font-family: lato;text-align: justify;padding-top: 30px;
+}
+
+pre.content-left{
+    display: inline-block; vertical-align: top; width: 82%;font-size: 22px;padding-top: 15px;text-align: justify
+}
+
+div.body-spec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px 25px 25px 25px;
+}
+
+img.left-spec1, img.right-spec1{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+}
+
+pre.content-middle{
+    font-size: 22px;
+    font-family: Lato, sans-serif;
+    text-align: justify;
+    max-width: 400px;
+    margin: 0;
+}
+
+section.activity-section {
+  padding: 40px 20px;
+  background: linear-gradient(to bottom, #b3ecff, #e6ffff);
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.activity-section h2 {
+  font-size: 2.2rem;
+  color: #006994;
+  margin-bottom: 30px;
+}
+
+div.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+div.activity-card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 105, 148, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 105, 148, 0.3);
+}
+
+div.activity-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+div.activity-card h3 {
+  margin: 10px 0 5px;
+  color: #007fa4;
+}
+
+div.activity-card p {
+  padding: 0 15px 15px;
+}
+
+div.activity-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+div.header-spec1 {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 20px;
+  background: linear-gradient(270deg, #0084ff, #78c6fa, #2b9ccc);
+  float: right;
+  width: 1560px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
